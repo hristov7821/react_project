@@ -1,0 +1,208 @@
+.homepage {
+  background-image: url('./assets/3cars.webp'); 
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100vw; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  margin-top: 20px;
+}
+
+.subpage {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw; 
+  text-align: center; 
+  background-color: white; 
+}
+
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.3);
+  padding: 20px;
+  text-align: center;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 20%);
+}
+
+.homepage {
+  background-image: url('./assets/34cars.jpg'); 
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100vw; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.subpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: white;
+}
+
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.3);
+  padding: 40px; 
+  text-align: center;
+  max-width: 500px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+.card h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 20%);
+}
+
+.audipage {
+  background-image: url('./assets/audifactory.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmwpage {
+  background-image: url('./assets/bmwfactory.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mercedespage {
+  background-image: url('./assets/mercedesfactory.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subpage1 {
+  background-image: url('./assets/mercedesfactory.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.subpage2 {
+  background-image: url('./assets/audifactory.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.subpage3 {
+  background-image: url('./assets/bmwfactory.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
